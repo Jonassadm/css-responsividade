@@ -36,9 +36,9 @@ body {
     transition-duration: 150ms;
 }
 /* mobile */
+
 .topo {
     
-
     & h2 {
         font-size: 22px;
         color: var(--color-gavy-950);
@@ -137,7 +137,16 @@ body.dark-mode {
             }
         }
     }
+
+    & .redes {
+        & > div {
+            color: var(--color-blue-50);
+            background-color: var(--color-gavy-950);
+        }
+    }
 }
+
+
 
 /* desktop */
 @media only screen and (width >= 1024px) {
